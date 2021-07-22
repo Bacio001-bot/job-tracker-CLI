@@ -1,0 +1,22 @@
+{
+  "name": "job-tracker",
+  "version": "1.0.0",
+  "description": "Keep track of your current jobs and earnings",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "dotenv": "^10.0.0",
+    "dotenv-flow": "^3.2.0",
+    "inquirer": "^8.1.2",
+    "link": "^0.1.5",
+    "mongoose": "^5.13.3"
+  }
+}
