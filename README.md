@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h1 align="center">Verification bot by Bacio001</h1>
+<h1 align="center">Job tracking CLI by Bacio001</h1>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -16,28 +16,28 @@
 
 ## Key Features
 
-* User verification - Let a user verify on entering the server
-* Role Setting - Set a custom role that the user gets after verifying (PREFIXsettings verifyrole <roleid>)
-* Toggle Setting - Disable or enable verifications
-
+* Add Jobs - job-tracker a
+* Remove Jobs - job-tracker r <_id>
+* Update Jobs - job-tracker u <_id>
+* Find Job By Name - job-tracker f <name>
+* List of jobs - job-tracker l
 
 
 ## How To setup
 
-Before you are able to use the bot you have to set some files up.
+Before you are able to use the CLI you have to set some files up.
 
 ```bash
+	
+# Run npm i
+	
+# Create a .env file
+	
 # MongooseDB string
-Make a file called string.json with the code
-{
-	"string" : "YourMongoDbString"
-}
-
-# Discord bot token
-Make a file called config.json with the token
-{
-	"token" : "YourToken"
-}
+Add your mongoose string to .env file
+DATABASE_STRING=STRING
+	
+# Run npm link
 ```
 
 ## Support
